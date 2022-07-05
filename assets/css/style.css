@@ -2949,4 +2949,59 @@ s .process span:before {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+#pie-chart{
+  /* background-color: silver; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#my-pie-chart-container {
+  display: flex;
+  align-items: center;
+}
+
+#my-pie-chart {
+  background: conic-gradient(rgb(122, 29, 29) 50.00%, rgb(79, 182, 230) 50.00% 66.67%, rgb(210, 111, 223) 66.67% 83.34%, rgb(70, 177, 70) 83.34%);
+  border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+#legenda {
+  margin: 20px 40px;
+  background-color: white;
+  padding: 5px;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+}
+
+.entry-color {
+    height: 25px;
+    width: 25px;
+}
+
+.entry-text {
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+
+#color-green {
+  background-color: rgb(70, 177, 70);
+}
+
+#color-blue {
+  background-color: rgb(210, 111, 223);
+}
+
+#color-black {
+  background-color: rgb(79, 182, 230);
+}
+
+#color-brown {
+  background-color: rgb(122, 29, 29) ;
+}
