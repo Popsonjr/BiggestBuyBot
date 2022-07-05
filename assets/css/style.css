@@ -2964,8 +2964,8 @@ s .process span:before {
 #my-pie-chart {
   background: conic-gradient(rgb(122, 29, 29) 50.00%, rgb(79, 182, 230) 50.00% 66.67%, rgb(210, 111, 223) 66.67% 83.34%, rgb(70, 177, 70) 83.34%);
   border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 
 #legenda {
