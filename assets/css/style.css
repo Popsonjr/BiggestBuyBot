@@ -1802,7 +1802,7 @@ s .process span:before {
   display: flex;
   flex-wrap: wrap;
   padding: 150px 0;
-  background: #24e65e;
+  background: #08411a;
   position: relative;
 }
 .work-with-us:before {
@@ -2962,7 +2962,7 @@ s .process span:before {
 }
 
 #my-pie-chart {
-  background: conic-gradient(rgb(122, 29, 29) 50.00%, rgb(79, 182, 230) 50.00% 66.67%, rgb(210, 111, 223) 66.67% 83.34%, rgb(70, 177, 70) 83.34%);
+  background: conic-gradient(red 33.33%, blue 33.33% 66.66%, orange 66.66%);
   border-radius: 50%;
     width: 350px;
     height: 350px;
@@ -2995,13 +2995,13 @@ s .process span:before {
 }
 
 #color-blue {
-  background-color: rgb(210, 111, 223);
+  background-color: orange;
 }
 
 #color-black {
-  background-color: rgb(79, 182, 230);
+  background-color: blue;
 }
 
 #color-brown {
-  background-color: rgb(122, 29, 29) ;
+  background-color: red ;
 }
